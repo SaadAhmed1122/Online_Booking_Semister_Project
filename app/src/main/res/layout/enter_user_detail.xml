@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Information" />
+
+    <EditText
+        android:id="@+id/user_info_name"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:hint="Enter Your Name" />
+
+    <EditText
+        android:id="@+id/_user_company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:hint="Enter Company or Store Name" />
+
+    <EditText
+        android:id="@+id/user_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Plz Enter your Phone Number"
+        android:inputType="phone" />
+
+    <EditText
+
+        android:id="@+id/user_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Enter your Address"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/button_save_user"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+        android:text="Save" />
+</LinearLayout>

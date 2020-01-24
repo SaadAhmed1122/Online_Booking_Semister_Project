@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "223629294529",
+    "firebase_url": "https://dataenter-2af78.firebaseio.com",
+    "project_id": "dataenter-2af78",
+    "storage_bucket": "dataenter-2af78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223629294529:android:f69402e2518db444488d40",
+        "android_client_info": {
+          "package_name": "com.example.dataenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223629294529-msg4hug0o17m7u1q34nkcnul1b1t4oqi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dataenter",
+            "certificate_hash": "196c4ca75c82df10139ad61e52e84bc68cd990e4"
+          }
+        },
+        {
+          "client_id": "223629294529-aquekccghspdp8ovpkk6k600aehr93oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1rvKTsIm7kpBdlCPaQtm7l9UWmG0bnuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223629294529-aquekccghspdp8ovpkk6k600aehr93oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
